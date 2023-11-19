@@ -1,0 +1,43 @@
+/* shared class */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+    header{
+        padding-top: 1rem;
+    }
+    /* nav */
+        
+        .login{
+            border-radius: 5px;
+            color: white;
+        }
+
+        li a{
+            font-size: 16px;
+        }
+
+    /* slider */
+    #slider{
+        background: rgba(231, 111, 81, 0.10);
+    }
+    #slider h2{
+        color: #000;
+        font-size: 3.5rem;
+        font-weight: 700;
+        line-height: 75px; 
+    }
+
+    #slider p{
+        color: rgba(0, 0, 0, 0.80);
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 26px;
+    }
+
+/* main */
+    /* featured images section */
+
+    #featured_images img{
+        margin: 0 auto;
+    }
