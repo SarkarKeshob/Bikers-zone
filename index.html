@@ -148,15 +148,138 @@
         </header>
     
         <main class=" my-10 md:container md:mx-auto">
-            <section class="space-y-10">
+
+          <!-- Featured bikes -->
+            <section id="featured_images" class="space-y-10">
                 <h2 class="text-2xl font-bold text-center md:text-3xl">Fetured Bikes In This Year</h2>
 
-                <p class="text-center">Best bike collection</p>
-                <div id="featured_images" class="grid md:grid-cols-3">
+                <p class="text-center text-bikers_primary_color">Best bike collection</p>
+                <div  class="grid space-y-10 md:grid-cols-3">
                     <img src="images/others/feature-bike.png" alt="">
                     <img src="images/others/feature-bike.png" alt="">
                     <img src="images/others/feature-bike.png" alt="">
                 </div>
+            </section>
+            
+            <!-- Latest bikes section -->
+            <section id="latest_bikes" class="my-20">
+              <h2 class="text-2xl font-bold text-center md:text-3xl">Latest Bikes</h2>
+              
+              <div class="card_container my-10 grid grid-cols-1 gap-5 md:grid-cols-3">
+                <!-- card-1 -->
+                <div class=" space-y-5 card card-compact  bg-base-100 shadow-xl ">
+                  <figure><img src="images/others/latest1.png" alt="bikes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p class="text-justify my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <div class="card-actions justify-start">
+                      <a class="btn btn-outline bg-bikers_primary_color login md:px-8">Read More</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card-2 -->
+                <div class=" space-y-5 card card-compact bg-base-100 shadow-xl ">
+                  <figure><img src="images/others/latest2.png" alt="bikes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p class="text-justify my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <div class="card-actions justify-start">
+                      <a class="btn btn-outline bg-bikers_primary_color login md:px-8">Read More</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- card-1 -->
+                <div class=" space-y-5 card card-compact bg-base-100 shadow-xl ">
+                  <figure><img src="images/others/latest3.png" alt="bikes" /></figure>
+                  <div class="card-body">
+                    <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                    <p class="text-justify my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                    <div class="card-actions justify-start">
+                      <a class="btn btn-outline bg-bikers_primary_color login md:px-8">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Happy client section -->
+
+            <section class="my-20 md:container md:mx-auto">
+              <h2 class="text-2xl font-bold text-center md:text-3xl">Happy <span class="text-bikers_primary_color"> Clients says</span></h2>
+
+              <div id="comment_cards_container" class="grid grid-cols-1 md:grid-cols-3 my-10 gap-5">
+
+                <!-- card-1 -->
+                <div class="card bg-base-100 shadow-xl text-center">
+                  <figure><img src="images/others/user-1.png" alt="Movie"/></figure>
+                  <div class="card-body">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                      <div class="rating rating-xs justify-center">
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-link">Watch</button>
+                    </div>
+
+                    <h6>Banker</h6>
+                  </div>
+                </div>
+
+                 <!-- card-2 -->
+                 <div class="card bg-base-100 shadow-xl text-center">
+                  <figure><img src="images/others/user-2.png" alt="Movie"/></figure>
+                  <div class="card-body">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                      <div class="rating rating-xs justify-center">
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-link">Watch</button>
+                    </div>
+
+                    <h6>Banker</h6>
+                  </div>
+                </div>
+
+                 <!-- card-3 -->
+                 <div class="card bg-base-100 shadow-xl text-center">
+                  <figure><img src="images/others/user-3.png" alt="Movie"/></figure>
+                  <div class="card-body">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                      <div class="rating rating-xs justify-center">
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"  />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                        <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                      </div>
+                    <div class="card-actions justify-center">
+                      <button class="btn btn-link">Watch</button>
+                    </div>
+
+                    <h6>Banker</h6>
+                  </div>
+                </div>
+              </div>
             </section>
         </main>
         <footer>

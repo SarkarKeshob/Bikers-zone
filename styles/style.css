@@ -41,3 +41,11 @@
     #featured_images img{
         margin: 0 auto;
     }
+
+    main h2{
+        color: #000;
+    }
+
+    #comment_cards_container .card{
+        border: 1px solid #DEDEDE;
+    }
